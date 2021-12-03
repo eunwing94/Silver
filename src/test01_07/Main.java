@@ -1,5 +1,5 @@
 package test01_07;
-// 01-07. °Å²Ù·Î ÀĞ¾îµµ °°Àº ¹®ÀÚ¿­ (ex. Åä¸¶Åä)
+// 01-07. ê±°ê¾¸ë¡œ ì½ì–´ë„ ê°™ì€ ë¬¸ìì—´ (ex. í† ë§ˆí† )
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -13,8 +13,8 @@ public class Main {
 		int i = 0;
 		boolean flag = true;
 		
-		// 1¹øÂ° ¾µµ¥¾øÀÌ ¿À·¡°É·Á..
-		// Â¦¼ö&È¦¼ö ¸ğµÎ°¡´É
+		// 1ë²ˆì§¸ ì“¸ë°ì—†ì´ ì˜¤ë˜ê±¸ë ¤..
+		// ì§ìˆ˜&í™€ìˆ˜ ëª¨ë‘ê°€ëŠ¥
 		while(i<strlen/2) {
 			if(input1.charAt(i) == input1.charAt(strlen-i-1)) {
 				flag = true;
@@ -31,8 +31,8 @@ public class Main {
 			answer = "YES";
 		}
 		
-		// 2¹øÂ° ** StringBuilder¸¦ È°¿ëÇÏÀÚ!!
-		answer = "NO"; // answer ÃÊ±âÈ­
+		// 2ë²ˆì§¸ ** StringBuilderë¥¼ í™œìš©í•˜ì!!
+		answer = "NO"; // answer ì´ˆê¸°í™”
 		String tmp = new StringBuilder(input1).reverse().toString();
 		if(tmp.equalsIgnoreCase(input1)) {answer = "YES";}
 		

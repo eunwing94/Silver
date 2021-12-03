@@ -1,5 +1,5 @@
 package test01_10;
-// 01-10. ¹®ÀÚ¿­ÀÇ °¢ char°ú Æ¯Á¤ char°úÀÇ °Å¸® ±¸ÇÏ±â
+// 01-10. ë¬¸ìì—´ì˜ ê° charê³¼ íŠ¹ì • charê³¼ì˜ ê±°ë¦¬ êµ¬í•˜ê¸°
 
 import java.util.ArrayList;
 import java.util.Scanner;

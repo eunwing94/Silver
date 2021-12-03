@@ -1,5 +1,5 @@
 package test01_05;
-// 01-05. Æ¯Á¤ ¹®ÀÚ µÚÁı±â (ex. ¾ËÆÄºª¸¸ µÚÁı±â)
+// 01-05. íŠ¹ì • ë¬¸ì ë’¤ì§‘ê¸° (ex. ì•ŒíŒŒë²³ë§Œ ë’¤ì§‘ê¸°)
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -18,29 +18,29 @@ public class Main {
 		char[] x = input1.toCharArray();
 
 		for(int i=0;i<input1.length();i++){
-			if(Character.isLetter(input1.charAt(i))) { // ¹®ÀÚÀÎ°æ¿ì
+			if(Character.isLetter(input1.charAt(i))) { // ë¬¸ìì¸ê²½ìš°
 				letterStr += arr[i];
 				letterLength++;
 			}
 		}
 		
-		// ** StringBuilder¸¦ ¾µ ¶§¿¡´Â new¸¦ ²À ºÙÀÏ °Í!!
+		// ** StringBuilderë¥¼ ì“¸ ë•Œì—ëŠ” newë¥¼ ê¼­ ë¶™ì¼ ê²ƒ!!
 		letterStr = new StringBuilder(letterStr).reverse().toString();
 
 		for(int i=0;i<input1.length();i++){
-			if(Character.isLetter(input1.charAt(i))) { // ¹®ÀÚÀÎ°æ¿ì
+			if(Character.isLetter(input1.charAt(i))) { // ë¬¸ìì¸ê²½ìš°
 				
 				temp[i] = letterStr.charAt(j++);
 				
-			}else {	// ¹®ÀÚ ¾Æ´Ñ °æ¿ì ¿ø·¡ À§Ä¡ ±×´ë·Î
+			}else {	// ë¬¸ì ì•„ë‹Œ ê²½ìš° ì›ë˜ ìœ„ì¹˜ ê·¸ëŒ€ë¡œ
 				temp[i] = arr[i];
 			}
 		}
 
-		// * charArray to String º¯È¯ À§ÇÑ 3°¡Áö ¹æ½Ä
-		answer = new String(temp);		// 1¹øÂ° ¹æ½Ä
-		answer = String.valueOf(temp);	// 2¹øÂ° ¹æ½Ä
-		StringBuilder sb = new StringBuilder();	// 3¹øÂ° ¹æ½Ä
+		// * charArray to String ë³€í™˜ ìœ„í•œ 3ê°€ì§€ ë°©ì‹
+		answer = new String(temp);		// 1ë²ˆì§¸ ë°©ì‹
+		answer = String.valueOf(temp);	// 2ë²ˆì§¸ ë°©ì‹
+		StringBuilder sb = new StringBuilder();	// 3ë²ˆì§¸ ë°©ì‹
 		answer = sb.append(temp).toString();
 		
 		return answer;

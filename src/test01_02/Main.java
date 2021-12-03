@@ -1,5 +1,5 @@
 package test01_02;
-// 01-02. ´ë¼Ò¹®ÀÚ º¯È¯
+// 01-02. ëŒ€ì†Œë¬¸ì ë³€í™˜
 
 import java.util.Scanner;
   
@@ -10,9 +10,9 @@ public class Main {
 		int cnt = 0;
 		int len = input1.length();
 
-		String textStr = input1.toLowerCase();	// ¼Ò¹®ÀÚ·Î º¯È¯
-		char[] orgChar =  input1.toCharArray();	// ¿À¸®Áö³Î char Arr
-		char[] smallChar =  textStr.toCharArray();	// ¼Ò¹®ÀÚ Arr
+		String textStr = input1.toLowerCase();	// ì†Œë¬¸ìë¡œ ë³€í™˜
+		char[] orgChar =  input1.toCharArray();	// ì˜¤ë¦¬ì§€ë„ char Arr
+		char[] smallChar =  textStr.toCharArray();	// ì†Œë¬¸ì Arr
 		
 		for(int i=0;i<len;i++) {
 			if(orgChar[i]==smallChar[i]) {

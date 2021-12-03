@@ -1,7 +1,7 @@
 package test05_02;
-// 05-02. °ıÈ£¹®ÀÚÁ¦°Å
-// ÀÔ·Â : (A(BC)D)EF(G(H)(IJ)K)LM(N) 
-// Ãâ·Â : EFLM
+// 05-02. ê´„í˜¸ë¬¸ìì œê±°
+// ì…ë ¥ : (A(BC)D)EF(G(H)(IJ)K)LM(N) 
+// ì¶œë ¥ : EFLM
 
 import java.util.ArrayList;
 import java.util.Iterator;

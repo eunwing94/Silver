@@ -1,5 +1,5 @@
 package test02_01;
-// 02-01. ÀÌÁø¹ı -> ¾Æ½ºÅ° ¹®ÀÚ º¯È¯
+// 02-01. ì´ì§„ë²• -> ì•„ìŠ¤í‚¤ ë¬¸ì ë³€í™˜
 
 import java.util.ArrayList;
 import java.util.Scanner;

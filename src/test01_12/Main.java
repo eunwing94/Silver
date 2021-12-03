@@ -1,5 +1,5 @@
 package test01_12;
-// 01-12. ÀÌÁø¹ı -> ¾Æ½ºÅ° ¹®ÀÚ º¯È¯
+// 01-12. ì´ì§„ë²• -> ì•„ìŠ¤í‚¤ ë¬¸ì ë³€í™˜
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -12,7 +12,7 @@ public class Main {
 		
 		String answer = "";
 		
-		/* replace / replaceAllÀÇ °æ¿ì.. ÇÑ º¯¼ö¿¡ ³Ö¾î¼­ »ç¿ëÇØ¾ßÇÔ. i++ ÀÌ°ÍÃ³·³ ¸í·É¾î·Î »ç¿ë ºÒ°¡ */
+		/* replace / replaceAllì˜ ê²½ìš°.. í•œ ë³€ìˆ˜ì— ë„£ì–´ì„œ ì‚¬ìš©í•´ì•¼í•¨. i++ ì´ê²ƒì²˜ëŸ¼ ëª…ë ¹ì–´ë¡œ ì‚¬ìš© ë¶ˆê°€ */
 		
 		input2 = input2.replace('#', '1'); 
 		input2 = input2.replace('*', '0');

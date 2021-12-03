@@ -1,6 +1,6 @@
 package test05_03;
-// ÇÑ¹ø´õ ÇØº¸±â~~~~~~~~~~~~~~~@@@@@@@@@@@@@@@@@@@
-// 05-03. Ä«Ä«¿À ÀÎÇü»Ì±â
+// í•œë²ˆë” í•´ë³´ê¸°~~~~~~~~~~~~~~~@@@@@@@@@@@@@@@@@@@
+// 05-03. ì¹´ì¹´ì˜¤ ì¸í˜•ë½‘ê¸°
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -17,23 +17,23 @@ public class Main {
 		
 		int old_peek=0;
 		int new_peek=0;
-		for(int x=0;x<input2;x++){	// 8°³
+		for(int x=0;x<input2;x++){	// 8ê°œ
 			
-			// ±âÁ¸ peek
+			// ê¸°ì¡´ peek
 			if(stack.isEmpty()) {					
 				old_peek = 0;	
 			}else {
-				old_peek = stack.peek();	// ±âÁ¸ peek
+				old_peek = stack.peek();	// ê¸°ì¡´ peek
 			}
-			for(int y=0;y<input1;y++) {	// 5°³
-				if(board[y][move[x]-1] != 0) {	// 0ÀÌ ¾Æ´Ò¶§.. push
+			for(int y=0;y<input1;y++) {	// 5ê°œ
+				if(board[y][move[x]-1] != 0) {	// 0ì´ ì•„ë‹ë•Œ.. push
 					stack.push(board[y][move[x]-1]);
 					new_peek = board[y][move[x]-1];
-					board[y][move[x]-1] = 0;	// push ÈÄ ±âÁ¸ °Í 0À¸·Î ´ëÃ¼ÇØÁÖ±â
+					board[y][move[x]-1] = 0;	// push í›„ ê¸°ì¡´ ê²ƒ 0ìœ¼ë¡œ ëŒ€ì²´í•´ì£¼ê¸°
 					
-					break;	// 0 ¾Æ´Ñ ¼ø°£ pushÇÏ°í break
+					break;	// 0 ì•„ë‹Œ ìˆœê°„ pushí•˜ê³  break
 					
-				}else {	// ½Å±Ô°¡ 0ÀÏ °æ¿ì..
+				}else {	// ì‹ ê·œê°€ 0ì¼ ê²½ìš°..
 					new_peek = 0;
 				}
 			}

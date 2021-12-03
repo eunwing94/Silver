@@ -1,5 +1,5 @@
 package test07_02;
-// 07-01. Àç±ÍÇÔ¼ö
+// 07-01. ìž¬ê·€í•¨ìˆ˜
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -11,7 +11,7 @@ public class Main {
 	public String solution(int input1) {
 		
 		if(input1 <= 0) {
-			return str.reverse().toString(); 	// ±×³É ³¡³»¸é µÊ..
+			return str.reverse().toString(); 	// ê·¸ëƒ¥ ëë‚´ë©´ ë¨..
 		}else {
 			str.append(" ");
 			str.append(input1);

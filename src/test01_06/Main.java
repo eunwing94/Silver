@@ -1,5 +1,5 @@
 package test01_06;
-// 01-06. Áßº¹ ¹®ÀÚ Á¦°Å
+// 01-06. ì¤‘ë³µ ë¬¸ì ì œê±°
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class Main {
 	public String solution(String input1) {
 		String answer = new String();
 		
-		// 1¹øÂ° ¹æ¹ı (Ã¹¹øÂ° ¾ËÆÄºª°ú ºñ±³)
+		// 1ë²ˆì§¸ ë°©ë²• (ì²«ë²ˆì§¸ ì•ŒíŒŒë²³ê³¼ ë¹„êµ)
 		char[] arr = input1.toCharArray();
 		char flag;
 		
@@ -23,11 +23,11 @@ public class Main {
 		}
 		answer = String.valueOf(arr).replaceAll("_", "");
 		
-		// 2¹ø¤Š -> indexOf ¸¦ ¾²¸é Áßº¹µÈ char´Â indexµµ °ãÄ¡°Ô ³ª¿ÀÁö..
-		answer = ""; // ÃÊ±âÈ­
+		// 2ë²ˆì¨° -> indexOf ë¥¼ ì“°ë©´ ì¤‘ë³µëœ charëŠ” indexë„ ê²¹ì¹˜ê²Œ ë‚˜ì˜¤ì§€..
+		answer = ""; // ì´ˆê¸°í™”
 		for(int i=0;i<arr.length;i++) {
-			System.out.println(input1.charAt(i) + "´Â " + input1.indexOf(input1.charAt(i)) + "¹ø Â°¿¡ À§Ä¡ÇÔ.");
-			// ÀÌ for ¹®ÀÇ i¿Í input1.indexOf(input1.charAt(i)) °¡ ÀÏÄ¡ÇÒ ¶§¿¡¸¸ Ã¹ µîÀå!!
+			System.out.println(input1.charAt(i) + "ëŠ” " + input1.indexOf(input1.charAt(i)) + "ë²ˆ ì§¸ì— ìœ„ì¹˜í•¨.");
+			// ì´ for ë¬¸ì˜ iì™€ input1.indexOf(input1.charAt(i)) ê°€ ì¼ì¹˜í•  ë•Œì—ë§Œ ì²« ë“±ì¥!!
 			if(i == input1.indexOf(input1.charAt(i))) {
 				answer += input1.charAt(i);
 			}

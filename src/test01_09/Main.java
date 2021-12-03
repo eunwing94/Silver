@@ -1,5 +1,5 @@
 package test01_09;
-// 01-10. ¹®ÀÚ¿­¿¡¼­ ¼ıÀÚ¸¸ ÃßÃâ
+// 01-10. ë¬¸ìì—´ì—ì„œ ìˆ«ìë§Œ ì¶”ì¶œ
 import java.math.*;
 import java.util.Scanner;
   
@@ -7,15 +7,15 @@ public class Main {
 	
 	public BigInteger solution(String input1) {
 
-		// ÀÛÀº int TypeÀÎ °æ¿ì
+		// ì‘ì€ int Typeì¸ ê²½ìš°
 		int answer = 0;
 		
 		String orgStr = input1.replaceAll("[^0-9]","");
-		// ÀÛÀº int TypeÀÎ °æ¿ì (2^32 ¹Ì¸¸ÀÎ °æ¿ì)
+		// ì‘ì€ int Typeì¸ ê²½ìš° (2^32 ë¯¸ë§Œì¸ ê²½ìš°)
 		//int newNumber = Integer.valueOf(orgStr); 
 		//answer = newNumber;
 
-		// Å« int TypeÀÎ °æ¿ì (2^32 ÀÌ»óÀÎ °æ¿ì)
+		// í° int Typeì¸ ê²½ìš° (2^32 ì´ìƒì¸ ê²½ìš°)
 		BigInteger answer2 = new BigInteger("0");
 		answer2 = new BigInteger(orgStr); 
 		

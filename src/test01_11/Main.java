@@ -1,5 +1,5 @@
 package test01_11;
-// 01-11. ¹®ÀÚ¿­ ¾ĞÃà (¹®ÀÚ¿­ ¹İº¹½Ã ¼ıÀÚ·Î ´ë½Å Ç¥Çö)
+// 01-11. ë¬¸ìì—´ ì••ì¶• (ë¬¸ìì—´ ë°˜ë³µì‹œ ìˆ«ìë¡œ ëŒ€ì‹  í‘œí˜„)
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class Main {
 		ArrayList<Integer> number = new ArrayList<Integer>();
 		
 		String answer = "";
-		char flag = input1.charAt(0); // Ã¹¹øÂ° ¹®ÀÚ 
+		char flag = input1.charAt(0); // ì²«ë²ˆì§¸ ë¬¸ì 
 		int cnt = 1;
 		
 		alphabet.add(input1.charAt(0));

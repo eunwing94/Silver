@@ -1,7 +1,7 @@
 package test05_01;
-// 05-01. ¿Ã¹Ù¸¥ °ýÈ£
-// ÀÔ : (()(()))(()
-// Ãâ : NO
+// 05-01. ì˜¬ë°”ë¥¸ ê´„í˜¸
+// ìž… : (()(()))(()
+// ì¶œ : NO
 
 import java.util.ArrayList;
 import java.util.Iterator;

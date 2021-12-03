@@ -1,5 +1,5 @@
 package test07_01;
-// 07-01. Àç±ÍÇÔ¼ö
+// 07-01. ìž¬ê·€í•¨ìˆ˜
 
 import java.util.ArrayList;
 import java.util.Collection;
