@@ -1,6 +1,6 @@
 package test01_02;
 // 01-02. 대소문자 변환
-
+// 2번도 수정
 import java.util.Scanner;
   
 public class Main {
