@@ -1,7 +1,7 @@
 package test01_01;
 // 01-01. 문자열에서 특정 문자 찾기
 import java.util.Scanner;
-  
+  // 수정해서 마스터 배포
 public class Main {
 	
 	public int solution(String str, char t) {
