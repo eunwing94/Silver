@@ -1,5 +1,5 @@
 package test05_04;
-// 05-04. ÈÄÀ§½Ä ¿¬»ê(postfix)
+// 05-04. í›„ìœ„ì‹ ì—°ì‚°(postfix)
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -18,10 +18,10 @@ public class Main {
 		
 		char func = '+';
 		for(int i=0;i<input1.length();i++) {
-			if(Character.isDigit(input1.charAt(i))) { // ¼ıÀÚ¸é push
+			if(Character.isDigit(input1.charAt(i))) { // ìˆ«ìë©´ push
 				stack.push(Character.getNumericValue(input1.charAt(i)));		// char -> Integer
 			}
-			else {	// ¼ıÀÚ°¡ ¾Æ´Ï¸é
+			else {	// ìˆ«ìê°€ ì•„ë‹ˆë©´
 				func = input1.charAt(i);
 				rt = stack.pop();
 				lt = stack.pop();
