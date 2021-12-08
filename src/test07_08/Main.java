@@ -1,5 +1,5 @@
 package test07_08;
-// 07-08. 송아지 찾기 1. BFS 상태트리탐색 // 한번더
+// 07-08. 송아지 찾기 1. BFS 상태트리탐색 // 한번더하기
 
 import java.util.ArrayList;
 import java.util.Iterator;
